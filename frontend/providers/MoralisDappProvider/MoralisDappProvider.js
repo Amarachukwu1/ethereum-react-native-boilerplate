@@ -12,7 +12,7 @@ function MoralisDappProvider({children}) {
     });
 
     Moralis.onAccountsChanged(function (address) {
-      setWalletAddress(address[0]);
+      setWalletAddress(address[0x6a164122d5cf7c840D26e829b46dCc4ED6C0ae48]);
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
